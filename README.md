@@ -4,7 +4,6 @@ Version uploaded on 22nd April 2017
 Readme file for Bilevel Evolutionary Algorithm based on Quadratic Approximations - Version 2
 
 
-
 Quick instruction for execution:
 ------------------------------------------------------------------------
 Code the upper level optimization task in ulExternalProblem.m
@@ -18,8 +17,6 @@ Feasibility is given as g(x)<=0 and h(x)=0.
 
 The code also allows handling of multiple objectives at upper level.
 Check the sample implementation in externalProblemMulti.m
-------------------------------------------------------------------------
-
 
 
 BLEAQ2
@@ -43,8 +40,6 @@ m-BLEAQ Papers (For multiobjective bilevel problems)
 Sinha, Ankur, Pekka Malo, Kalyanmoy Deb, Pekka Korhonen, and Jyrki Wallenius. "Solving bilevel multicriterion optimization problems with lower level decision uncertainty." IEEE Transactions on Evolutionary Computation 20, no. 2 (2016): 199-217.
 
 Sinha, Ankur, Pekka Malo, and Kalyanmoy Deb. "Towards understanding bilevel multi-objective optimization with deterministic lower level decisions." International Conference on Evolutionary Multi-Criterion Optimization. Springer International Publishing, 2015.
-------------------------------------------------------------------------
-
 
 
 Files in the package
@@ -73,8 +68,6 @@ nonDominatedSorting.m
 getMappings.m
 getLowerLevelVariableFromMapping.m
 getOptimalSolutionSMD.m
-------------------------------------------------------------------------
-
 
 
 Executing a user-defined problem
@@ -111,8 +104,6 @@ ulEliteIndiv: Upper level elite member.
 llEliteIndiv: Lower level elite member.
 ulFunctionEvaluations: Upper level function evaluations required during the exection.
 llFunctionEvaluations: Lower level function evaluations required during the exection.
-------------------------------------------------------------------------
-
 
 
 Executing the SMD or TP suite
@@ -124,8 +115,6 @@ This executes the SMD1 test problem with problem and algorithm parameters coded 
 To execute one of the problems in TP-Suite (say SMD1), the following command needs to be called:
 tp1()
 This executes tp1 with problem and algorithm parameters coded in tp1.m. The results are printed on the screen as well as stored in 'tp1.mat'
-------------------------------------------------------------------------
-
 
 
 Contact
@@ -136,4 +125,3 @@ Ankur Sinha, PhD
 Indian Institute of Management
 Ahmedabad, India
 asinha@iima.ac.in
-------------------------------------------------------------------------
