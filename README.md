@@ -25,7 +25,9 @@ BLEAQ2
 ------------------------------------------------------------------------
 BLEAQ2 is the second version of a computationally efficient evolutionary algorithm for non-linear bilevel optimization problems. More information about the working of the algorithm can be found from the following paper.
 
-Sinha, Ankur, Zhichao Lu, Kalyanmoy Deb, and Pekka Malo, "Bilevel Optimization based on Iterative Approximation of Mappings." arXiv preprint arXiv:1702.03394 (2017).
+Sinha, Ankur, Zhichao Lu, Kalyanmoy Deb, and Pekka Malo, "Bilevel Optimization based on Iterative Approximation of Multiple Mappings." Journal of Heuristics (2019 Forthcoming)
+
+Sinha, Ankur, Zhichao Lu, Kalyanmoy Deb, and Pekka Malo, "Bilevel Optimization based on Iterative Approximation of Multiple Mappings." arXiv preprint arXiv:1702.03394 (2017).
 
 The current implementation is built on earlier versions and also supports solving bilevel optimization problems with multiple objectives at the upper level. Following papers provide further information about the algorithm.
 
