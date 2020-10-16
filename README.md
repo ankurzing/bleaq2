@@ -149,7 +149,7 @@ smd1()
 
 This executes the SMD1 test problem with problem and algorithm parameters coded in smd1.m. It executes a 5 variable SMD1 problem with 2 upper level variables and 3 lower level variables. The results are printed on the screen as well as stored in 'smd1.mat'
 
-To execute one of the problems in TP-Suite (say SMD1), the following command needs to be called:
+To execute one of the problems in TP-Suite (say TP1), the following command needs to be called:
 
 tp1()
 
