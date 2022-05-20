@@ -18,7 +18,7 @@ Execute it as: externalProblem()
 
 The code is written for maximization at both levels. Feasibility is given as g(x)<=0 and h(x)=0.
 
-The code also allows handling of multiple objectives at upper level. Check the sample implementation in externalProblemMulti.m
+The code also allows handling of multiple objectives at upper level. Check the sample implementation of multiobjective SMD1 test problem. The problem can be executed as msmd1() and the implementation of the test problem can be found in ulTestProblem.m (upper level problem) and llTestProblem.m (lower level problem) in the function msmd1().
 
 
 BLEAQ2
